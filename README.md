@@ -62,7 +62,7 @@ Avant d'écrire votre histoire, commencez par un jeu de données de test constit
 - Par la suite, vous écrirez une histoire complète constituée d'au moins **30 phases**.
 - Les chemins peuvent s'entremêler, et les victoires et les échecs peuvent être multiples.
 - Chaque phase pourra offrir un ou plusieurs choix (sans se limiter à deux).
-- Votre `json` s'enrichira de nouvelles informations pour chaque phase (texte(s), image(s)...).
+- Votre `json` s'enrichira de nouvelles informations pour chaque phase (titlee(s), image(s)...).
 
 ## Semaine 1 : Routing & transitions
 
@@ -78,7 +78,7 @@ Le projet doit contenir les pages suivantes :
 | `/win`       | Page de victoire            |                              | `/`                              |
 | `/lose`      | Page d'échec                |                              | `/`                              |
 
-- Commencez par créer des pages constituées d'un simple texte de test. Elles se construiront par la suite.
+- Commencez par créer des pages constituées d'un simple titlee de test. Elles se construiront par la suite.
 - Lorsque l'utilisateur recharge le navigateur, la page courante doit être restaurée correctement. Si je suis sur `game/3` et que je rafraîchi, je suis toujours sur `game/3`.
 
 #### La page /character
@@ -125,7 +125,7 @@ Le choix du personnage doit impacter au moins une fois l'aventure.
 
 ##### Exemples
 
-- J'ai le choix entre un scientifique et un politique. À certains moments, le scientifique dispose de textes supplémentaires pour lui permettre de prendre une décision éclairée. En revanche, les relations du politique lui donnent accès a des chemins qui lui sont exclusifs.
+- J'ai le choix entre un scientifique et un politique. À certains moments, le scientifique dispose de titlees supplémentaires pour lui permettre de prendre une décision éclairée. En revanche, les relations du politique lui donnent accès a des chemins qui lui sont exclusifs.
 - Je dois répartir des points de force et d'agilité pour mon personnage. Les points de force influent sur la probabilité de se sortir d'un combat, tandis que les points d'agilité influent sur la probabilité de franchir un précipice sans encombre.
 
 #### 2. Impact des décisions au cours du jeu
