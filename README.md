@@ -1,11 +1,11 @@
 # Le site dont vous êtes le héros
 
-URL du site : https://spaceodyssey.netlify.com
+URL du site : http://votre-url-ici.com
 
 ### Groupe
 
-- Quentin Monteferrario
-- Raïan Boutaleb
+- Prénom & Nom
+- Prénom & Nom
 
 ### Grille d'auto-évaluation
 
