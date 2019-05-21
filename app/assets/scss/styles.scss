@@ -1,18 +1,21 @@
 @import 'reset';
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 
-$hetic-green: #0de595;
-
 body,
 button,
 input,
 select,
-textarea {
+titlearea {
+ 
   font-family: 'Roboto';
 }
 
 .big-header {
-  background-color: $hetic-green;
+  font-size: 54px;
+  background-image: url(../img/space2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 100vh;
 
   display: flex;
@@ -20,14 +23,13 @@ textarea {
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
-
+  
   color: white;
 }
 
 .button {
-  color: $hetic-green;
-  text-decoration: none;
-  background: white;
+  color: rgb(6, 6, 65);
+  background: rgb(105, 6, 218);
   padding: 5px;
   border-radius: 5px;
   display: inline-block;
