@@ -1,10 +1,11 @@
-
 import Vue from 'vue';
 import Router from 'vue-router';
 
 import Home from './components/Home.vue';
 import Character from './components/Character.vue';
 import Game from './components/Game.vue';
+import Win from './components/Win.vue';
+import Lose from './components/Lose.vue';
 
 
 Vue.use(Router);
@@ -15,7 +16,7 @@ const router = new Router({
   routes: [
     {
       path: '/',
-      name: 'Home',
+      name: 'home',
       component: Home,
     },
     {
@@ -31,6 +32,16 @@ const router = new Router({
     {
       path: '*',
       redirect: { name: 'home' },
+    },
+    {
+      path: '/win',
+      name: 'win',
+      component: Win,
+    },
+    {
+      path: '/lose',
+      name: 'lose',
+      component: Lose,
     },
   ],
 });

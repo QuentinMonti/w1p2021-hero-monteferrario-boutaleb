@@ -1,24 +1,38 @@
 <template>
   <div class="big-header">
-    <h1>{{ title }}</h1>
+    <h1>{{ message }}</h1>
     <br>
-    <router-link class="button" to="/Character">Choix des personages</router-link>
+    <ul>
+      <li>
+        <router-link class="button-home" to="/character">EMBARQUER</router-link>
+      </li>
+    </ul>
   </div>
 </template>
 
 <script>
-//import countService from "../services/countService";
-
 export default {
   data() {
     return {
-      title: "SpaceOdyssey"
+      message: ""
     };
   }
-  /* methods: {
-    handleClick() {
-      countService.increment();
-    }
-  } */
 };
 </script>
+
+
+<style lang="scss" scoped>
+.big-header {
+  background-image: url("../assets/image/home.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100vh;
+}
+</style>
+

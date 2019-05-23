@@ -1,8 +1,9 @@
 {
-  "Mike": [
+  "steps": [
     {
       "id": 1,
       "title": "Bonjour Mike, la Terre à besoin de vous! La polution est les guerres ont detruit ses ressources elle est au bord du gouffre! Son seul espoire réside en vous et votre précieuse cargaison, 1000 futur arbres attende d'être planter sur Mars arriverai vous à votre destination avec tout les arbres?",
+      "img": "../assets/img/1(base).png",
       "actions": [
         {
           "title": "continuer",
@@ -20,7 +21,7 @@
         },
         {
           "title": "Continuer comme ça",
-          "to": "lose"
+          "to": 14
         }
       ]
     },
@@ -39,15 +40,15 @@
       "title": "un sifflement proviens de l'arrière du vaissaux mais des meteorites peuvent surgir allez voir le bruit si vous laissez le pilote automatique vous perdez de l'energie qui est precieuse",
       "actions": [
         {
-          "title": "rester au poste de pilotage",
-          "to": "lose"
+          "title": "rester",
+          "to": 15
         },
         {
-          "title": "allez voir en laissant le pilotage automatique",
+          "title": "partir avec pilote",
           "to": 5
         },
         {
-          "title": "allez voir sans le pilotage automatique",
+          "title": "partir sans pilote",
           "to": 6
         }
       ]
@@ -58,7 +59,7 @@
       "actions": [
         {
           "title": "continuer",
-          "to": 7
+          "to": 10
         }
       ]
     },
@@ -68,72 +69,320 @@
       "actions": [
         {
           "title": "continuer",
-          "to":
+          "to": 7
         }
       ]
     },
     {
       "id": 7,
-      "title": "vous reprenez le contrôle du vaisseau mais vous êtes en difficulté et vous décidez soit d'avorter la mission et de revenir sur terre ou de continuer mais sans la certitude d'arriver sur la mars.",
+      "title": "votre voyage arrive à sa moitié, la rustine que vous avez installé ne vas plus tenir, voulez vous arreter sur un satellite recuperer des pieces",
       "actions": [
         {
-          "title": "retour sur Terre",
+          "title": "partir sur le satellite",
           "to": 8
-        },
-        {
-          "title": "continuer",
-          "to":
         }
       ]
     },
     {
       "id": 8,
-      "title": "",
+      "title": "votre escapade sur le sattelite était une bonne idée vous arriver enfin au abord de mars, vous commencez votre descente mais le manque dénergie commence à ce faire sentir. Voulez bous lacher des arbres pour consommer moins?",
       "actions": [
-        {}
+        {
+          "title": "Oui",
+          "to": 9
+        },
+        {
+          "title": "Non",
+          "to": "lose"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "il ne vous reste plus que 400 arbres mais vous êtes arrivé! Vous commencé à planter les arbres l'avenir de l'humanité est sauf grâce à vous!",
+      "actions": [
+        {
+          "title": "Fin",
+          "to": "win"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Vous êtes à la moitié du voyage mais l'energie commence à faire cruellement defaut à cette vitesse la vous serai bientôt à cours! Voulez vous utiler un trou de verre pour racourcir votre voyage c'est très risqué!",
+      "actions": [
+        {
+          "title": "oui",
+          "to": 11
+        },
+        {
+          "title": "non",
+          "to": "lose"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Le troue de verre deforme votre vaisseau mais vous reusissez enfin à l'orbite de mars! Vous commencez votre descente la pression ce fait de plus en plus forte, voulez vous ejecter un module et envoyer les arbres seul au risque de tout perdre ou abandonner quelques arbres? ",
+      "actions": [
+        {
+          "title": "module",
+          "to": 12
+        },
+        {
+          "title": "lacher des arbres",
+          "to": 13
+        },
+        {
+          "title": "rien faire",
+          "to": "lose"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Vous arriver sur mars vos arbres ont atteris proche de vous aucun n'a etait détruit c'est une reussite parfaite!!!",
+      "actions": [
+        {
+          "title": "continuer",
+          "to": "win"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Vous arriver sur mars mais il ne vous reste plus que 500 arbres l'avenir de l'humanité est sauf!",
+      "actions": [
+        {
+          "title": "continuer",
+          "to": "win"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "stabiliser l'appareil deviens de plus en plus dur, finalement y a trop de poid votre vaisseaux s'ecrase",
+      "actions": [
+        {
+          "title": "Continuer",
+          "to": "lose"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "alors que vous poursuivez votre voyage tranquillement, vous commencez à avoir du mal à respirer ce n'etait pas juste une petit fuite, vous mourrez d'asphyxie et avec vous les espoires de l'humanité",
+      "actions": [
+        {
+          "title": "Continuer",
+          "to": "lose"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "img": "/assets/img/1(base).png",
+      "title": "Bonjour Sarah, la Terre à besoin de vous! La polution est les guerres ont detruit ses ressources elle est au bord du gouffre! Son seul espoire réside en vous et votre précieuse cargaison, 1000 futur arbres attende d'être planter sur Mars arriverai vous à votre destination avec tout les arbres?",
+      "actions": [
+        {
+          "title": "continuer",
+          "to": 17
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "Votre vaisseaux est trop lourd, vous risquer de ne pas rejoindre l'atmosphère comme ça! Voulez vous lacher un panneau solaire cependant sont rôle est essentiel pour votre énergie!",
+      "actions": [
+        {
+          "title": "Lacher un panneau solaire",
+          "to": 18
+        },
+        {
+          "title": "Continuer comme ça",
+          "to": "lose"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "Vous avez enfin quitté l'atmosphère, lacher le panneau solaire etait une bonne decision à vous maintenant d'économiser votre energie",
+      "actions": [
+        {
+          "title": "continuer",
+          "to": 19
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "Un sifflement proviens de l'arrière du vaissaux mais des meteorites peuvent surgir allez voir le bruit si vous laissez le pilote automatique vous perdez de l'energie qui est precieuse",
+      "actions": [
+        {
+          "title": "rester au poste de pilotage",
+          "to": "lose"
+        },
+        {
+          "title": "allez voir en laissant le pilotage automatique",
+          "to": 20
+        },
+        {
+          "title": "allez voir sans le pilotage automatique",
+          "to": 23
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "C'était un problème du au genrateur du generateur d'energie, mais vous n'avais pas les outils pour le réparer, vous devez déconecter irreversiblement soit les capteurs de proximité ou bien le gps et piloter à vue pour économiser de l'énergie.",
+      "actions": [
+        {
+          "title": "Capteurs de proximité",
+          "to": 21
+        },
+        {
+          "title": "Instrumentalisation GPS",
+          "to": 22
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "C'était un problème du au genrateur du generateur d'energie, mais vous n'avais pas les outils pour le réparer, vous avez donc pris la bonne décision de ne pas laisser le pilote automatique pour économiser l'énergie",
+      "actions": [
+        {
+          "title": "retourner au poste de pilotage",
+          "to": 24
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Il vous reste encore plusieurs mois de voyage et les premieres consequences de vos choix se font ressentir, le train d'atterrissage et le stockage d'arbre à été endommagé suite à une collision avec des astéroïdes que vous n'avez pas pu anticiper sans le gps",
+      "actions": [
+        {
+          "title": "continuer",
+          "to": 25
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Il vous reste encore plusieurs mois de voyage et les premieres consequences de vos choix se font ressentir, vous savez que pour attrir sur mars le pilote automatique ne pourra pas vous assurer un bon atterrissage",
+      "actions": [
+        {
+          "title": "continuer",
+          "to": 26
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Il vous reste encore plusieurs mois de voyage et vous commencer à vous sentir très seul, l'espace devant vous est infini, vous ne savez plus quand il fait jour ou nuit, pour vous occuper vous ecrivez énormément en esperant qu'on retrouve vos écris un jour",
+      "actions": [
+        {
+          "title": "continuer",
+          "to": 27
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "5 mois se sont écoulés, vous observez mars depuis le cockpit. Il faut maintenant se préparer à l’atterrissage. Vous change de direction pour vous mettre en orbite autour de la planete.",
+      "actions": [
+        {
+          "title": "continuer",
+          "to": 28
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "5 mois se sont écoulés, vous observez mars depuis le cockpit. Il faut maintenant se préparer à l’atterrissage. Vous change de direction pour vous mettre en orbite autour de la planete. Sans connaitre les distance entre vous et Mars vous vous faite happer par la gravité de la planete et vous vous ecrasez contre le sol martien",
+      "actions": [
+        {
+          "title": "Houston à Mars23, Vous me recevez ?!!!",
+          "to": "lose"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "5 mois se sont écoulés, vous observez mars depuis le cockpit. Il faut maintenant se préparer à l’atterrissage. Vous change de direction pour vous mettre en orbite autour de la planete. Vous signez votre premier livre -À travers les étoiles- ",
+      "actions": [
+        {
+          "title": "continuer",
+          "to": 29
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Vous lancez la phase d'atterrissage, sans train d'atterrissage, il faudra relancer les propulseurs juste avant de toucher le sol pour diminer la vitesse du vaisseau",
+      "actions": [
+        {
+          "title": "Les relancer à 60% à 1000m",
+          "to": 30
+        },
+        {
+          "title": "Les relancer à 85% à 670m",
+          "to": 31
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "title": "Vous lancez la phase d'atterrissage sur Mars, pour ne pas etre trop lourd vous avez le choix de lacher la moitier de la cargaison et assurer votre atterrissage ou tenter de le faire avec tout les arbres",
+      "actions": [
+        {
+          "title": "Assurer",
+          "to": 32
+        },
+        {
+          "title": "Prendre le risque",
+          "to": 33
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "title": "Vous arrivez à vous stabiliser puis vous avez assez de distance pour diminuer petit à petit la puissance des propulseur, vous atterrissez difficilement et mais vous vous en sortez. vous commencez à installer une base provisoir",
+      "actions": [
+        {
+          "title": "Houston à Mars23, bravo !",
+          "to": "win"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "title": "Vous perdez le controle en activant trop fort les propulseur et vous finissez par vous écraser sur Mars",
+      "actions": [
+        {
+          "title": "Houston la mission est un echec",
+          "to": "lose"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "title": "Vous atterrisser avec la moitié des arbres, c'est une réussite, vous commencez à vous installer. Votre livre sera publié après que vous ayez envoyé les scan à la nasa.",
+      "actions": [
+        {
+          "title": "Bravo vous avez réussit",
+          "to": "win"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "title": "Vous atterrisser non sans mal, avec tout les arbres, c'est une réussite complète, vous commencé à vous installer. Votre livre sera publié après que vous ayez envoyé les scan à la nasa.",
+      "actions": [
+        {
+          "title": "C'est une formidable réussite",
+          "to": "win"
+        }
       ]
     }
-  },
-  "3": {
-    "title": ,
-    "title": ,
-    "buttonA": ,
-    "idA": ,
-    "cargaison": ,
-  },
-  "3": {
-    "title": ,
-    "title": ,
-    "buttonA": ,
-    "idA": ,
-    "cargaison": ,
-  },
-  "3": {
-    "title": ,
-    "title": ,
-    "buttonA": ,
-    "idA": ,
-    "cargaison": ,
-  },
-  "3": {
-    "title": ,
-    "title": ,
-    "buttonA": ,
-    "idA": ,
-    "cargaison": ,
-  },
-  "3": {
-    "title": ,
-    "title": ,
-    "buttonA": ,
-    "idA": ,
-    "cargaison": ,
-  },
-  "3": {
-    "title": ,
-    "title": ,
-    "buttonA": ,
-    "idA": ,
-    "cargaison": ,
-  },
-  
+  ]
+}

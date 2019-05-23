@@ -1,22 +1,29 @@
 <template>
   <div class="big-header">
-    <h1>Previous clicks {{ count }}</h1>
+    <h1>{{message}}</h1>
     <br>
-    <router-link class="button" to="/">Retourner a la homepage</router-link>
-    <br>
-    <router-link class="button" to="/game/:1">Mike</router-link>
-    <router-link class="button" to="/game/:">Sarah</router-link>
+    <div class="imageMec"></div>
+    <ul>
+      <li>
+        <router-link class="button" to="/game/1">Mike</router-link>
+      </li>
+      <li>
+        <router-link class="button" to="/game/16">Sarah</router-link>
+      </li>
+    </ul>
   </div>
 </template>
 
-<script>
-import countService from "../services/countService";
 
+<script>
+import data from "../data.json";
 export default {
   data() {
     return {
-      count: countService.value()
+      message:
+        "Pour avancer dans votre aventure, il vous faudra faire des choix qui seront parfois décisifs pour votre survie. Commençons simplement, quel est votre nom ?"
     };
   }
 };
 </script>
+
