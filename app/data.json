@@ -2,21 +2,21 @@
   "steps": [
     {
       "id": 1,
-      "title": "Bonjour Mike, la Terre à besoin de vous! La polution est les guerres ont detruit ses ressources elle est au bord du gouffre! Son seul espoire réside en vous et votre précieuse cargaison, 1000 futur arbres attende d'être planter sur Mars arriverai vous à votre destination avec tout les arbres?",
+      "title": "Bonjour Mike, la Terre à besoin de vous! La pollution est les guerres ont détruit ses ressources elle est au bord du gouffre! Son seul espoirs réside en vous et votre précieuse cargaison, 1000 futur arbres attende d'être planter sur Mars arriverai vous à votre destination avec tout les arbres?",
       "img": "../assets/img/1(base).png",
       "actions": [
         {
-          "title": "continuer",
+          "title": "Continuer",
           "to": 2
         }
       ]
     },
     {
       "id": 2,
-      "title": "Votre vaisseaux est trop lourd, vous risquer de ne pas rejoindre l'atmosphère comme ça! Voulez vous lacher un panneau solaire cependant sont rôle est essentiel pour votre énergie!",
+      "title": "Votre vaisseaux est trop lourd, vous risquer de ne pas rejoindre l'atmosphère comme ça! Voulez vous lâcher un panneau solaire cependant sont rôle est essentiel pour votre énergie!",
       "actions": [
         {
-          "title": "Lacher un panneau solaire",
+          "title": "Lâcher un panneau solaire",
           "to": 3
         },
         {
@@ -216,18 +216,18 @@
     },
     {
       "id": 19,
-      "title": "Un sifflement proviens de l'arrière du vaissaux mais des meteorites peuvent surgir allez voir le bruit si vous laissez le pilote automatique vous perdez de l'energie qui est precieuse",
+      "title": "Un sifflement proviens de l'arrière du vaissaux mais des meteorites peuvent surgir allez voir le bruit si vous laissez le pilote automatique vous perdez de l'energie qui est précieuse",
       "actions": [
         {
-          "title": "rester au poste de pilotage",
+          "title": "rester",
           "to": "lose"
         },
         {
-          "title": "allez voir en laissant le pilotage automatique",
+          "title": "partir avec pilote",
           "to": 20
         },
         {
-          "title": "allez voir sans le pilotage automatique",
+          "title": "partir sans le pilote",
           "to": 23
         }
       ]
