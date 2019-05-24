@@ -171,8 +171,7 @@
     },
     {
       "id": 15,
-      "title": "alors que vous poursuivez votre voyage tranquillement, vous commencez à avoir du mal à respirer ce n'était pas juste une petit fuite, vous mourrez d'asphyxie et avec vous les espoirs
-      de l'humanité",
+      "title": "alors que vous poursuivez votre voyage tranquillement, vous commencez à avoir du mal à respirer ce n'était pas juste une petit fuite, vous mourrez d'asphyxie et avec vous les espoirs de l'humanité",
       "actions": [
         {
           "title": "Continuer",
@@ -183,7 +182,7 @@
     {
       "id": 16,
       "img": "/assets/img/1(base).png",
-      "title": "Bonjour Sarah, la Terre à besoin de vous! La polution est les guerres ont detruit ses ressources elle est au bord du gouffre! Son seul espoire réside en vous et votre précieuse cargaison, 1000 futur arbres attende d'être planter sur Mars arriverai vous à votre destination avec tout les arbres?",
+      "title": "Bonjour Sarah, la Terre à besoin de vous! La pollution est les guerres ont détruit ses ressources elle est au bord du gouffre! Son seul espoir réside en vous et votre précieuse cargaison, 1000 futur arbres attende d'être planter sur Mars arriverai vous à votre destination avec tout les arbres?",
       "actions": [
         {
           "title": "continuer",
@@ -193,10 +192,10 @@
     },
     {
       "id": 17,
-      "title": "Votre vaisseaux est trop lourd, vous risquer de ne pas rejoindre l'atmosphère comme ça! Voulez vous lacher un panneau solaire cependant sont rôle est essentiel pour votre énergie!",
+      "title": "Votre vaisseaux est trop lourd, vous risquer de ne pas rejoindre l'atmosphère comme ça! Voulez vous lâcher un panneau solaire cependant sont rôle est essentiel pour votre énergie!",
       "actions": [
         {
-          "title": "Lacher un panneau solaire",
+          "title": "Lâcher un panneau solaire",
           "to": 18
         },
         {
@@ -207,7 +206,7 @@
     },
     {
       "id": 18,
-      "title": "Vous avez enfin quitté l'atmosphère, lacher le panneau solaire etait une bonne decision à vous maintenant d'économiser votre energie",
+      "title": "Vous avez enfin quitté l'atmosphère, lâcher le panneau solaire était une bonne décision à vous maintenant d'économiser votre énergie",
       "actions": [
         {
           "title": "continuer",
@@ -217,7 +216,7 @@
     },
     {
       "id": 19,
-      "title": "Un sifflement proviens de l'arrière du vaissaux mais des meteorites peuvent surgir allez voir le bruit si vous laissez le pilote automatique vous perdez de l'energie qui est précieuse",
+      "title": "Un sifflement proviens de l'arrière du vaisseau mais des météorites peuvent surgir allez voir le bruit si vous laissez le pilote automatique vous perdez de l'énergie qui est précieuse",
       "actions": [
         {
           "title": "rester",
@@ -235,7 +234,7 @@
     },
     {
       "id": 20,
-      "title": "C'était un problème du au genrateur du generateur d'energie, mais vous n'avais pas les outils pour le réparer, vous devez déconecter irreversiblement soit les capteurs de proximité ou bien le gps et piloter à vue pour économiser de l'énergie.",
+      "title": "C'était un problème du au générateur du générateur d'énergie, mais vous n'avais pas les outils pour le réparer, vous devez déconnecter irréversiblement soit les capteurs de proximité ou bien le gps et piloter à vue pour économiser de l'énergie.",
       "actions": [
         {
           "title": "Capteurs de proximité",
@@ -249,7 +248,7 @@
     },
     {
       "id": 23,
-      "title": "C'était un problème du au genrateur du generateur d'energie, mais vous n'avais pas les outils pour le réparer, vous avez donc pris la bonne décision de ne pas laisser le pilote automatique pour économiser l'énergie",
+      "title": "C'était un problème du au générateur du générateur d'énergie, mais vous n'avais pas les outils pour le réparer, vous avez donc pris la bonne décision de ne pas laisser le pilote automatique pour économiser l'énergie",
       "actions": [
         {
           "title": "retourner au poste de pilotage",
@@ -259,7 +258,7 @@
     },
     {
       "id": 21,
-      "title": "Il vous reste encore plusieurs mois de voyage et les premieres consequences de vos choix se font ressentir, le train d'atterrissage et le stockage d'arbre à été endommagé suite à une collision avec des astéroïdes que vous n'avez pas pu anticiper sans le gps",
+      "title": "Il vous reste encore plusieurs mois de voyage et les premières conséquences de vos choix se font ressentir, le train d'atterrissage et le stockage d'arbre à été endommagé suite à une collision avec des astéroïdes que vous n'avez pas pu anticiper sans le gps",
       "actions": [
         {
           "title": "continuer",
@@ -269,7 +268,7 @@
     },
     {
       "id": 22,
-      "title": "Il vous reste encore plusieurs mois de voyage et les premieres consequences de vos choix se font ressentir, vous savez que pour attrir sur mars le pilote automatique ne pourra pas vous assurer un bon atterrissage",
+      "title": "Il vous reste encore plusieurs mois de voyage et les premières conséquences de vos choix se font ressentir, vous savez que pour atterrir sur mars le pilote automatique ne pourra pas vous assurer un bon atterrissage",
       "actions": [
         {
           "title": "continuer",
@@ -279,7 +278,7 @@
     },
     {
       "id": 24,
-      "title": "Il vous reste encore plusieurs mois de voyage et vous commencer à vous sentir très seul, l'espace devant vous est infini, vous ne savez plus quand il fait jour ou nuit, pour vous occuper vous ecrivez énormément en esperant qu'on retrouve vos écris un jour",
+      "title": "Il vous reste encore plusieurs mois de voyage et vous commencer à vous sentir très seul, l'espace devant vous est infini, vous ne savez plus quand il fait jour ou nuit, pour vous occuper vous écrivez énormément en espérant qu'on retrouve vos écris un jour",
       "actions": [
         {
           "title": "continuer",
@@ -289,7 +288,7 @@
     },
     {
       "id": 25,
-      "title": "5 mois se sont écoulés, vous observez mars depuis le cockpit. Il faut maintenant se préparer à l’atterrissage. Vous change de direction pour vous mettre en orbite autour de la planete.",
+      "title": "5 mois se sont écoulés, vous observez mars depuis le cockpit. Il faut maintenant se préparer à l’atterrissage. Vous change de direction pour vous mettre en orbite autour de la planète.",
       "actions": [
         {
           "title": "continuer",
@@ -299,7 +298,7 @@
     },
     {
       "id": 26,
-      "title": "5 mois se sont écoulés, vous observez mars depuis le cockpit. Il faut maintenant se préparer à l’atterrissage. Vous change de direction pour vous mettre en orbite autour de la planete. Sans connaitre les distance entre vous et Mars vous vous faite happer par la gravité de la planete et vous vous ecrasez contre le sol martien",
+      "title": "5 mois se sont écoulés, vous observez mars depuis le cockpit. Il faut maintenant se préparer à l’atterrissage. Vous change de direction pour vous mettre en orbite autour de la planète. Sans connaitre les distance entre vous et Mars vous vous faite happer par la gravité de la planète et vous vous écrasez contre le sol martien",
       "actions": [
         {
           "title": "Houston à Mars23, Vous me recevez ?!!!",
@@ -309,7 +308,7 @@
     },
     {
       "id": 27,
-      "title": "5 mois se sont écoulés, vous observez mars depuis le cockpit. Il faut maintenant se préparer à l’atterrissage. Vous change de direction pour vous mettre en orbite autour de la planete. Vous signez votre premier livre -À travers les étoiles- ",
+      "title": "5 mois se sont écoulés, vous observez mars depuis le cockpit. Il faut maintenant se préparer à l’atterrissage. Vous change de direction pour vous mettre en orbite autour de la planète. Vous signez votre premier livre -À travers les étoiles- ",
       "actions": [
         {
           "title": "continuer",
@@ -319,7 +318,7 @@
     },
     {
       "id": 28,
-      "title": "Vous lancez la phase d'atterrissage, sans train d'atterrissage, il faudra relancer les propulseurs juste avant de toucher le sol pour diminer la vitesse du vaisseau",
+      "title": "Vous lancez la phase d'atterrissage, sans train d'atterrissage, il faudra relancer les propulseurs juste avant de toucher le sol pour diminuer la vitesse du vaisseau",
       "actions": [
         {
           "title": "Les relancer à 60% à 1000m",
@@ -333,7 +332,7 @@
     },
     {
       "id": 29,
-      "title": "Vous lancez la phase d'atterrissage sur Mars, pour ne pas etre trop lourd vous avez le choix de lacher la moitier de la cargaison et assurer votre atterrissage ou tenter de le faire avec tout les arbres",
+      "title": "Vous lancez la phase d'atterrissage sur Mars, pour ne pas être trop lourd vous avez le choix de lâcher la moitié de la cargaison et assurer votre atterrissage ou tenter de le faire avec tout les arbres",
       "actions": [
         {
           "title": "Assurer",
@@ -347,7 +346,7 @@
     },
     {
       "id": 30,
-      "title": "Vous arrivez à vous stabiliser puis vous avez assez de distance pour diminuer petit à petit la puissance des propulseur, vous atterrissez difficilement et mais vous vous en sortez. vous commencez à installer une base provisoir",
+      "title": "Vous arrivez à vous stabiliser puis vous avez assez de distance pour diminuer petit à petit la puissance des propulseur, vous atterrissez difficilement et mais vous vous en sortez. vous commencez à installer une base provisoire",
       "actions": [
         {
           "title": "Houston à Mars23, bravo !",
@@ -357,17 +356,17 @@
     },
     {
       "id": 31,
-      "title": "Vous perdez le controle en activant trop fort les propulseur et vous finissez par vous écraser sur Mars",
+      "title": "Vous perdez le contrôle en activant trop fort les propulseur et vous finissez par vous écraser sur Mars",
       "actions": [
         {
-          "title": "Houston la mission est un echec",
+          "title": "Houston la mission est un échec",
           "to": "lose"
         }
       ]
     },
     {
       "id": 32,
-      "title": "Vous atterrisser avec la moitié des arbres, c'est une réussite, vous commencez à vous installer. Votre livre sera publié après que vous ayez envoyé les scan à la nasa.",
+      "title": "Vous atterrissez avec la moitié des arbres, c'est une réussite, vous commencez à vous installer. Votre livre sera publié après que vous ayez envoyé les scans à la nasa.",
       "actions": [
         {
           "title": "Bravo vous avez réussit",
@@ -377,7 +376,7 @@
     },
     {
       "id": 33,
-      "title": "Vous atterrisser non sans mal, avec tout les arbres, c'est une réussite complète, vous commencé à vous installer. Votre livre sera publié après que vous ayez envoyé les scan à la nasa.",
+      "title": "Vous atterrissez non sans mal, avec tout les arbres, c'est une réussite complète, vous commencé à vous installer. Votre livre sera publié après que vous ayez envoyé les scans à la nasa.",
       "actions": [
         {
           "title": "C'est une formidable réussite",
