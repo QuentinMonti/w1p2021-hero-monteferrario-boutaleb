@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Bonjour Mike, la Terre à besoin de vous! La pollution est les guerres ont détruit ses ressources elle est au bord du gouffre! Son seul espoirs réside en vous et votre précieuse cargaison, 1000 futur arbres attende d'être planter sur Mars arriverai vous à votre destination avec tout les arbres?",
-      "img": "../assets/img/1(base).png",
+      "background": "../assets/image/intro.png",
       "actions": [
         {
           "title": "Continuer",
@@ -27,35 +27,35 @@
     },
     {
       "id": 3,
-      "title": "Vous avez enfin quitté l'atmosphère, lacher le panneau solaire etait uen bonne decision à vous maintenant d'économiser votre energie",
+      "title": "Vous avez enfin quitté l'atmosphère, lâcher le panneau solaire était une bonne décision à vous maintenant d'économiser votre énergie",
       "actions": [
         {
-          "title": "continuer",
+          "title": "Continuer",
           "to": 4
         }
       ]
     },
     {
       "id": 4,
-      "title": "un sifflement proviens de l'arrière du vaissaux mais des meteorites peuvent surgir allez voir le bruit si vous laissez le pilote automatique vous perdez de l'energie qui est precieuse",
+      "title": "un sifflement proviens de l'arrière du vaisseau mais des météorites peuvent surgir allez voir le bruit si vous laissez le pilote automatique vous perdez de l'énergie qui est précieuse",
       "actions": [
         {
-          "title": "rester",
+          "title": "Rester",
           "to": 15
         },
         {
-          "title": "partir avec pilote",
+          "title": "Partir avec pilote",
           "to": 5
         },
         {
-          "title": "partir sans pilote",
+          "title": "Partir sans pilote",
           "to": 6
         }
       ]
     },
     {
       "id": 5,
-      "title": "votre reservoir d'air a une fuite vous mettez une rustine cela devrait tenir un moment",
+      "title": "votre réservoir d'air a une fuite vous mettez une rustine cela devrait tenir un moment",
       "actions": [
         {
           "title": "continuer",
@@ -65,7 +65,7 @@
     },
     {
       "id": 6,
-      "title": "votre reservoir d'air a une fuite vous mettez une rustine cela devrait tenir un moment, cependant sans pilote automatique une meteorite a toucher votre vaisseaux 50 de vos arbres sont perdu..",
+      "title": "votre réservoir d'air a une fuite vous mettez une rustine cela devrait tenir un moment, cependant sans pilote automatique une météorite a toucher votre vaisseaux 50 de vos arbres sont perdu..",
       "actions": [
         {
           "title": "continuer",
@@ -75,7 +75,7 @@
     },
     {
       "id": 7,
-      "title": "votre voyage arrive à sa moitié, la rustine que vous avez installé ne vas plus tenir, voulez vous arreter sur un satellite recuperer des pieces",
+      "title": "votre voyage arrive à sa moitié, la rustine que vous avez installé ne vas plus tenir, voulez vous arrêter sur un satellite récupérer des pièces",
       "actions": [
         {
           "title": "partir sur le satellite",
@@ -85,7 +85,7 @@
     },
     {
       "id": 8,
-      "title": "votre escapade sur le sattelite était une bonne idée vous arriver enfin au abord de mars, vous commencez votre descente mais le manque dénergie commence à ce faire sentir. Voulez bous lacher des arbres pour consommer moins?",
+      "title": "votre escapade sur le satellite était une bonne idée vous arriver enfin au abord de mars, vous commencez votre descente mais le manque d'énergie commence à ce faire sentir. Voulez bous lâcher des arbres pour consommer moins?",
       "actions": [
         {
           "title": "Oui",
@@ -109,7 +109,7 @@
     },
     {
       "id": 10,
-      "title": "Vous êtes à la moitié du voyage mais l'energie commence à faire cruellement defaut à cette vitesse la vous serai bientôt à cours! Voulez vous utiler un trou de verre pour racourcir votre voyage c'est très risqué!",
+      "title": "Vous êtes à la moitié du voyage mais l'énergie commence à faire cruellement défaut à cette vitesse la vous serai bientôt à cours! Voulez vous utiliser un trou de verre pour raccourcir votre voyage c'est très risqué!",
       "actions": [
         {
           "title": "oui",
@@ -123,14 +123,14 @@
     },
     {
       "id": 11,
-      "title": "Le troue de verre deforme votre vaisseau mais vous reusissez enfin à l'orbite de mars! Vous commencez votre descente la pression ce fait de plus en plus forte, voulez vous ejecter un module et envoyer les arbres seul au risque de tout perdre ou abandonner quelques arbres? ",
+      "title": "Le troue de verre déforme votre vaisseau mais vous réussissez enfin à l'orbite de mars! Vous commencez votre descente la pression ce fait de plus en plus forte, voulez vous éjecter un module et envoyer les arbres seul au risque de tout perdre ou abandonner quelques arbres? ",
       "actions": [
         {
           "title": "module",
           "to": 12
         },
         {
-          "title": "lacher des arbres",
+          "title": "lâcher des arbres",
           "to": 13
         },
         {
@@ -141,7 +141,7 @@
     },
     {
       "id": 12,
-      "title": "Vous arriver sur mars vos arbres ont atteris proche de vous aucun n'a etait détruit c'est une reussite parfaite!!!",
+      "title": "Vous arriver sur mars vos arbres ont atterris proche de vous aucun n'a était détruit c'est une réussite parfaite!!!",
       "actions": [
         {
           "title": "continuer",
@@ -161,7 +161,7 @@
     },
     {
       "id": 14,
-      "title": "stabiliser l'appareil deviens de plus en plus dur, finalement y a trop de poid votre vaisseaux s'ecrase",
+      "title": "stabiliser l'appareil deviens de plus en plus dur, finalement y a trop de poîd votre vaisseaux s'écrase",
       "actions": [
         {
           "title": "Continuer",
@@ -171,7 +171,8 @@
     },
     {
       "id": 15,
-      "title": "alors que vous poursuivez votre voyage tranquillement, vous commencez à avoir du mal à respirer ce n'etait pas juste une petit fuite, vous mourrez d'asphyxie et avec vous les espoires de l'humanité",
+      "title": "alors que vous poursuivez votre voyage tranquillement, vous commencez à avoir du mal à respirer ce n'était pas juste une petit fuite, vous mourrez d'asphyxie et avec vous les espoirs
+      de l'humanité",
       "actions": [
         {
           "title": "Continuer",

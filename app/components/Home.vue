@@ -1,6 +1,5 @@
 <template>
   <div class="big-header">
-    <h1>{{ message }}</h1>
     <br>
     <ul>
       <li>
@@ -10,15 +9,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      message: ""
-    };
-  }
-};
-</script>
 
 
 <style lang="scss" scoped>

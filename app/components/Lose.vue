@@ -1,29 +1,13 @@
 <template>
-  <div class="big-header">
-    <h1>{{ message }}</h1>
-    <br>
-    <ul>
-      <li>
-        <router-link class="button-home" to="/character">EMBARQUER</router-link>
-      </li>
-    </ul>
-  </div>
+  <div class="big-header"></div>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      message: ""
-    };
-  }
-};
-</script>
+
 
 
 <style lang="scss" scoped>
 .big-header {
-  background-image: url("../assets/image/home.png");
+  background-image: url("../assets/image/lose.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

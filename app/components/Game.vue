@@ -1,12 +1,10 @@
 <template>
   <div class="big-header" v-bind:style="{ backgroundImage: 'url(' + step.background + ')' }">
-    <h1>{{step.title}}</h1>
-    <img class="perso" v-bind:src="step.img">
-    <div class="force-agilite"></div>
+    <h1 v-if="$route.params.id">{{step.title}}</h1>
     <ul>
       <li v-for="action in step.actions" v-bind:action="action" v-bind:key="action.title">
         <router-link class="button" :to="action.to.toString()">{{ action.title }}</router-link>
-        <img v-bind:src="action.img">
+        <img v-bind:src="action.img"> z
       </li>
     </ul>
   </div>
@@ -19,7 +17,7 @@ import game from "../data.json";
 export default {
   data: function() {
     return {
-      step: this.getStep(),
+      step: this.getStep()
     };
   },
 
@@ -45,12 +43,7 @@ export default {
   background-repeat: no-repeat;
   overflow: hidden;
 }
-.perso {
-  position: absolute;
-  left: 50px;
-  top: 30%;
-  height: 600px;
-}
+
 ul {
   display: flex;
   img {
