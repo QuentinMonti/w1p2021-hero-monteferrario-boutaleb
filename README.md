@@ -24,17 +24,17 @@ URL du site :  https://spaceodyssey.netlify.com
 | Pages | Une page d'échec est présente | Y |
 | Routing | Une route dont l'`id` varie permet d'afficher les différentes étapes du jeu | y |
 | Routing | Lorsqu'on recharge la page (`Ctrl + R`), on se trouve toujours à la même étape | y |
-| Transitions | Chaque page apparaît grâce à une transition fluide (la complexité de la transition n'est pas prise en compte ici) | - |
+| Transitions | Chaque page apparaît grâce à une transition fluide (la complexité de la transition n'est pas prise en compte ici) | Y |
 | Transitions | Les transitions internes au jeu (d'une étape à une autre) et externes (intro, fin...) sont différentes | - |
 | État | Le choix du personnage et/ou de ses caractéristiques impacte l'aventure au moins une fois. ** En fonction du choix de personnages le voyage n'est pas le même** | Y |
 | État | Une décision ou un événement aléatoire survenu pendant l'aventure a un impact sur la suite, au moins une fois. ** Les décision change le nombres d'arbres finales** | Y |
 | État | Le choix du personnage et/ou ce qu'il s'est passé pendant l'aventure impactent l'écran de fin. **Le Nombres d'arbres change sur l'écran de fin** | Y |
 | État | Au moins un service (classe de type `GameService`) est utilisé | - |
-| Sauvegarde | Lorsqu'on recharge la page (`Ctrl + R`), le personnage, ses caractéristiques, les choix du joueur et tout le reste sont rétablis | - |
+| Sauvegarde | Lorsqu'on recharge la page (`Ctrl + R`), le personnage, ses caractéristiques, les choix du joueur et tout le reste sont rétablis | Y |
 | Sauvegarde | Lorsqu'on quitte le jeu et qu'on revient plus tard à la page d'accueil (sur le même navigateur), il est possible de reprendre l'aventure où on l'avait laissée | - |
 | Multimédia | L'expérience présente une vidéo ou plus | - |
-| Multimédia | L'expérience présente un audio ou plus | - |
-| Multimédia | L'utilisateur a la possibilité de couper le son à tout moment | - |
+| Multimédia | L'expérience présente un audio ou plus | Y |
+| Multimédia | L'utilisateur a la possibilité de couper le son à tout moment | Y |
 | Facultatif | Le repository contient un dossier /ressources contenant toutes les ressources ayant servi à la conception du jeu (schéma, design, figma...) | Y |
 
 
