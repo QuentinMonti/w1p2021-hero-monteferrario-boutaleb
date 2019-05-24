@@ -1,5 +1,12 @@
 <template>
-  <div class="big-header"></div>
+  <div class="big-header">
+    <br>
+    <ul>
+      <li>
+        <router-link class="button-home" to="/character">RECOMMENCER</router-link>
+      </li>
+    </ul>
+  </div>
 </template>
 
 

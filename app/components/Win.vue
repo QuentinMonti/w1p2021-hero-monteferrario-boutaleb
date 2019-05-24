@@ -1,18 +1,20 @@
 <template>
   <div class="big-header">
-    <h1>{{ message }}</h1>
     <br>
     <ul>
       <li>
-        <router-link class="button-home" to="/character">EMBARQUER</router-link>
+        <router-link class="button-home" to="/character">RECOMMENCER</router-link>
       </li>
     </ul>
   </div>
 </template>
 
+
+
+
 <style lang="scss" scoped>
 .big-header {
-  background-image: url("../assets/image/home.png");
+  background-image: url("../assets/image/win.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

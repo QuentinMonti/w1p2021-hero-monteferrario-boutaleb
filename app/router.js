@@ -30,10 +30,6 @@ const router = new Router({
       component: Game,
     },
     {
-      path: '*',
-      redirect: { name: 'home' },
-    },
-    {
       path: '/win',
       name: 'win',
       component: Win,
@@ -43,6 +39,11 @@ const router = new Router({
       name: 'lose',
       component: Lose,
     },
+    {
+      path: '*',
+      redirect: { name: 'home' },
+    },
+
   ],
 });
 

@@ -5,13 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Hero</title>
+  <title>SpaceOdyssey</title>
 </head>
 
 <body>
   <div id="root">
     <transition name="pane">
-      <router-view />
+      <router-view :key="$route.name + ($route.params.id || '')"></router-view>
     </transition>
   </div>
   //

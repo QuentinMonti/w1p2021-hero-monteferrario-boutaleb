@@ -93,7 +93,7 @@
         },
         {
           "title": "Non",
-          "to": "lose"
+          "to": "/lose"
         }
       ]
     },
@@ -103,7 +103,7 @@
       "actions": [
         {
           "title": "Fin",
-          "to": "win"
+          "to": "/win"
         }
       ]
     },
@@ -117,13 +117,14 @@
         },
         {
           "title": "non",
-          "to": "lose"
+          "to": "/lose"
         }
       ]
     },
     {
       "id": 11,
       "title": "Le troue de verre déforme votre vaisseau mais vous réussissez enfin à l'orbite de mars! Vous commencez votre descente la pression ce fait de plus en plus forte, voulez vous éjecter un module et envoyer les arbres seul au risque de tout perdre ou abandonner quelques arbres? ",
+      "background": "../assets/image/troudevers.png",
       "actions": [
         {
           "title": "module",
@@ -135,27 +136,29 @@
         },
         {
           "title": "rien faire",
-          "to": "lose"
+          "to": "/lose"
         }
       ]
     },
     {
       "id": 12,
       "title": "Vous arriver sur mars vos arbres ont atterris proche de vous aucun n'a était détruit c'est une réussite parfaite!!!",
+      "background": "../assets/image/perfectMike.png",
       "actions": [
         {
           "title": "continuer",
-          "to": "win"
+          "to": "/win"
         }
       ]
     },
     {
       "id": 13,
       "title": "Vous arriver sur mars mais il ne vous reste plus que 500 arbres l'avenir de l'humanité est sauf!",
+      "background": "../assets/image/winMike.png",
       "actions": [
         {
           "title": "continuer",
-          "to": "win"
+          "to": "/win"
         }
       ]
     },
@@ -165,7 +168,7 @@
       "actions": [
         {
           "title": "Continuer",
-          "to": "lose"
+          "to": "/lose"
         }
       ]
     },
@@ -175,7 +178,7 @@
       "actions": [
         {
           "title": "Continuer",
-          "to": "lose"
+          "to": "/lose"
         }
       ]
     },
@@ -200,7 +203,7 @@
         },
         {
           "title": "Continuer comme ça",
-          "to": "lose"
+          "to": "/lose"
         }
       ]
     },
@@ -220,7 +223,7 @@
       "actions": [
         {
           "title": "rester",
-          "to": "lose"
+          "to": "/lose"
         },
         {
           "title": "partir avec pilote",
@@ -234,7 +237,7 @@
     },
     {
       "id": 20,
-      "title": "C'était un problème du au générateur du générateur d'énergie, mais vous n'avais pas les outils pour le réparer, vous devez déconnecter irréversiblement soit les capteurs de proximité ou bien le gps et piloter à vue pour économiser de l'énergie.",
+      "title": "C'était un problème du au générateur d'énergie, mais vous n'avais pas les outils pour le réparer, vous devez déconnecter irréversiblement soit les capteurs de proximité ou bien le gps et piloter à vue pour économiser de l'énergie.",
       "actions": [
         {
           "title": "Capteurs de proximité",
@@ -302,7 +305,7 @@
       "actions": [
         {
           "title": "Houston à Mars23, Vous me recevez ?!!!",
-          "to": "lose"
+          "to": "/lose"
         }
       ]
     },
@@ -350,7 +353,7 @@
       "actions": [
         {
           "title": "Houston à Mars23, bravo !",
-          "to": "win"
+          "to": "/win"
         }
       ]
     },
@@ -360,27 +363,29 @@
       "actions": [
         {
           "title": "Houston la mission est un échec",
-          "to": "lose"
+          "to": "/lose"
         }
       ]
     },
     {
       "id": 32,
       "title": "Vous atterrissez avec la moitié des arbres, c'est une réussite, vous commencez à vous installer. Votre livre sera publié après que vous ayez envoyé les scans à la nasa.",
+      "background": "../assets/image/winSarah.png",
       "actions": [
         {
           "title": "Bravo vous avez réussit",
-          "to": "win"
+          "to": "/win"
         }
       ]
     },
     {
       "id": 33,
       "title": "Vous atterrissez non sans mal, avec tout les arbres, c'est une réussite complète, vous commencé à vous installer. Votre livre sera publié après que vous ayez envoyé les scans à la nasa.",
+      "background": "../assets/image/perfectSarah.png",
       "actions": [
         {
           "title": "C'est une formidable réussite",
-          "to": "win"
+          "to": "/win"
         }
       ]
     }
