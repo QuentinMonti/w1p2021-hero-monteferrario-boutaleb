@@ -70,7 +70,7 @@
     {
       "id": 6,
       "title": "votre réservoir d'air a une fuite vous mettez une rustine cela devrait tenir un moment, cependant sans pilote automatique une météorite a toucher votre vaisseaux 50 de vos arbres sont perdu..",
-      "background": "../assets/image/fuitedaire.png",
+      "background": "../assets/image/meteor.png",
       "actions": [
         {
           "title": "continuer",
