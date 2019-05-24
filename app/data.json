@@ -311,7 +311,7 @@
     {
       "id": 25,
       "title": "5 mois se sont écoulés, vous observez mars depuis le cockpit. Il faut maintenant se préparer à l’atterrissage. Vous change de direction pour vous mettre en orbite autour de la planète.",
-      "background": "../assets/image/orbite.png",
+      "background": "../assets/image/vudemars.png",
       "actions": [
         {
           "title": "continuer",

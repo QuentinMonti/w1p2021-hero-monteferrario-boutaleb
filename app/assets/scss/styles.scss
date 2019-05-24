@@ -30,6 +30,7 @@ border-radius: 10px;
       background-repeat: no-repeat;
       color: white;
       &:hover {
+        transform: scale(1.2);
         color:rgb(233, 236, 16);
       }
       padding: 40px;
@@ -43,30 +44,45 @@ border-radius: 10px;
 }
 
 .audio-on img {
-  background: white;
+  border-radius: 4px;
+  padding: 10px;
+  background: rgb(233, 236, 16);
   position: absolute;
   height: 40px;
   width: 40px;
   top: 20px;
   left:20px;
+  &:hover {
+   transform: scale(1.2);
+  }
 }
 
 .audio-mute img {
-  background: white;
+  border-radius: 4px;
+  padding: 10px;
+  background: rgb(233, 236, 16);
   top: 20px;
   left: 100px;
   height: 40px;
   width: 50px;
-position: absolute;
+  position: absolute;
+  &:hover {
+    transform: scale(1.2);
+  }
 }
 
 .back-home img {
-  background: white;
+  border-radius: 4px;
+  padding: 10px;
+  background: rgb(233, 236, 16);
   position: absolute;
   height: 40px;
   width: 40px;
   top: 20px;
   left: 190px;
+  &:hover {
+    transform: scale(1.2);
+   }  
 }
 
 ul {
@@ -114,6 +130,9 @@ h1 {
   font-size: 30px;
   letter-spacing: 5px;
   line-height: 40px;
+  &:hover {
+    background: linear-gradient(90deg, #000000 0%, #AC4BE8 99.85%);
+  }
 }
 
 .pane-leave-active,
