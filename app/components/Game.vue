@@ -1,9 +1,14 @@
 <template>
+
   <div class="big-header" v-bind:style="{ backgroundImage: 'url(' + step.background + ')' }">
   <div class="audio-mute" onclick="document.getElementById('music').pause()"><img src="../assets/image/Audio-mute.png" /></div>
   <div class="audio-on" onclick="document.getElementById('music').play()"><img src="../assets/image/audio-on.png" /></div>
-    <h1 v-if="$route.params.id">{{step.title}}</h1>
-    <audio id="music" src="../assets/audio/interstellar.mp3" autoplay loop></audio>
+  <router-link to="/">
+    <div class="back-home"><img src="../assets/image/homeLogo.png" />
+    </div>
+  </router-link>
+  <h1 v-if="$route.params.id">{{step.title}}</h1>
+  <audio id="music" src="../assets/audio/interstellar.mp3" autoplay loop></audio>
     <ul>
       <li v-for="action in step.actions" v-bind:action="action" v-bind:key="action.title">
         <router-link class="button" :to="action.to.toString()">{{ action.title }}</router-link>

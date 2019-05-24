@@ -2,7 +2,7 @@
   "steps": [
     {
       "id": 1,
-      "title": "Bonjour Mike, la Terre à besoin de vous! La pollution est les guerres ont détruit ses ressources elle est au bord du gouffre! Son seul espoirs réside en vous et votre précieuse cargaison, 1000 futur arbres attende d'être planter sur Mars arriverai vous à votre destination avec tout les arbres?",
+      "title": "Bonjour Mike, la Terre à besoin de vous! La pollution est les guerres ont détruit ses ressources elle est au bord du gouffre ! Son seul espoirs réside en vous et votre précieuse cargaison, 1000 futur arbres attende d'être planter sur Mars arriverai vous à votre destination avec tout les arbres ?",
       "background": "../assets/image/intro.png",
       "actions": [
         {
@@ -13,7 +13,8 @@
     },
     {
       "id": 2,
-      "title": "Votre vaisseaux est trop lourd, vous risquer de ne pas rejoindre l'atmosphère comme ça! Voulez vous lâcher un panneau solaire cependant sont rôle est essentiel pour votre énergie!",
+      "title": "Votre vaisseaux est trop lourd, vous risquer de ne pas rejoindre l'atmosphère comme ça! Voulez vous lâcher un panneau solaire cependant sont rôle est essentiel pour votre énergie !",
+      "background": "../assets/image/solarpanel.png",
       "actions": [
         {
           "title": "Lâcher un panneau solaire",
@@ -28,6 +29,7 @@
     {
       "id": 3,
       "title": "Vous avez enfin quitté l'atmosphère, lâcher le panneau solaire était une bonne décision à vous maintenant d'économiser votre énergie",
+      "background": "../assets/image/lunch.png",
       "actions": [
         {
           "title": "Continuer",
@@ -38,6 +40,7 @@
     {
       "id": 4,
       "title": "un sifflement proviens de l'arrière du vaisseau mais des météorites peuvent surgir allez voir le bruit si vous laissez le pilote automatique vous perdez de l'énergie qui est précieuse",
+      "background": "../assets/image/fuitedaire.png",
       "actions": [
         {
           "title": "Rester",
@@ -56,6 +59,7 @@
     {
       "id": 5,
       "title": "votre réservoir d'air a une fuite vous mettez une rustine cela devrait tenir un moment",
+      "background": "../assets/image/rustine.png",
       "actions": [
         {
           "title": "continuer",
@@ -66,6 +70,7 @@
     {
       "id": 6,
       "title": "votre réservoir d'air a une fuite vous mettez une rustine cela devrait tenir un moment, cependant sans pilote automatique une météorite a toucher votre vaisseaux 50 de vos arbres sont perdu..",
+      "background": "../assets/image/fuitedaire.png",
       "actions": [
         {
           "title": "continuer",
@@ -76,6 +81,7 @@
     {
       "id": 7,
       "title": "votre voyage arrive à sa moitié, la rustine que vous avez installé ne vas plus tenir, voulez vous arrêter sur un satellite récupérer des pièces",
+      "background": "../assets/image/satellite.png",
       "actions": [
         {
           "title": "partir sur le satellite",
@@ -85,7 +91,8 @@
     },
     {
       "id": 8,
-      "title": "votre escapade sur le satellite était une bonne idée vous arriver enfin au abord de mars, vous commencez votre descente mais le manque d'énergie commence à ce faire sentir. Voulez bous lâcher des arbres pour consommer moins?",
+      "title": "votre escapade sur le satellite était une bonne idée vous arriver enfin au abord de mars, vous commencez votre descente mais le manque d'énergie commence à ce faire sentir. Voulez bous lâcher des arbres pour consommer moins ?",
+      "background": "../assets/image/vudemars.png",
       "actions": [
         {
           "title": "Oui",
@@ -99,7 +106,8 @@
     },
     {
       "id": 9,
-      "title": "il ne vous reste plus que 400 arbres mais vous êtes arrivé! Vous commencé à planter les arbres l'avenir de l'humanité est sauf grâce à vous!",
+      "title": "il ne vous reste plus que 400 arbres mais vous êtes arrivé! Vous commencé à planter les arbres l'avenir de l'humanité est sauf grâce à vous !",
+      "background": "../assets/image/winMike.png",
       "actions": [
         {
           "title": "Fin",
@@ -109,7 +117,8 @@
     },
     {
       "id": 10,
-      "title": "Vous êtes à la moitié du voyage mais l'énergie commence à faire cruellement défaut à cette vitesse la vous serai bientôt à cours! Voulez vous utiliser un trou de verre pour raccourcir votre voyage c'est très risqué!",
+      "title": "Vous êtes à la moitié du voyage mais l'énergie commence à faire cruellement défaut à cette vitesse la vous serai bientôt à cours! Voulez vous utiliser un trou de verre pour raccourcir votre voyage c'est très risqué !",
+      "background": "../assets/image/troudevers.png",
       "actions": [
         {
           "title": "oui",
@@ -123,7 +132,7 @@
     },
     {
       "id": 11,
-      "title": "Le troue de verre déforme votre vaisseau mais vous réussissez enfin à l'orbite de mars! Vous commencez votre descente la pression ce fait de plus en plus forte, voulez vous éjecter un module et envoyer les arbres seul au risque de tout perdre ou abandonner quelques arbres? ",
+      "title": "Le troue de verre déforme votre vaisseau mais vous réussissez enfin à l'orbite de mars ! Vous commencez votre descente la pression ce fait de plus en plus forte, voulez vous éjecter un module et envoyer les arbres seul au risque de tout perdre ou abandonner quelques arbres ? ",
       "background": "../assets/image/troudevers.png",
       "actions": [
         {
@@ -142,7 +151,7 @@
     },
     {
       "id": 12,
-      "title": "Vous arriver sur mars vos arbres ont atterris proche de vous aucun n'a était détruit c'est une réussite parfaite!!!",
+      "title": "Vous arriver sur mars vos arbres ont atterris proche de vous aucun n'a était détruit c'est une réussite parfaite !!!",
       "background": "../assets/image/perfectMike.png",
       "actions": [
         {
@@ -153,7 +162,7 @@
     },
     {
       "id": 13,
-      "title": "Vous arriver sur mars mais il ne vous reste plus que 500 arbres l'avenir de l'humanité est sauf!",
+      "title": "Vous arriver sur mars mais il ne vous reste plus que 500 arbres l'avenir de l'humanité est sauf !",
       "background": "../assets/image/winMike.png",
       "actions": [
         {
@@ -165,6 +174,7 @@
     {
       "id": 14,
       "title": "stabiliser l'appareil deviens de plus en plus dur, finalement y a trop de poîd votre vaisseaux s'écrase",
+      "background": "../assets/image/crashsolarpanelMike.png",
       "actions": [
         {
           "title": "Continuer",
@@ -175,6 +185,7 @@
     {
       "id": 15,
       "title": "alors que vous poursuivez votre voyage tranquillement, vous commencez à avoir du mal à respirer ce n'était pas juste une petit fuite, vous mourrez d'asphyxie et avec vous les espoirs de l'humanité",
+      "background": "../assets/image/asphyxie.png",
       "actions": [
         {
           "title": "Continuer",
@@ -184,8 +195,8 @@
     },
     {
       "id": 16,
-      "img": "/assets/img/1(base).png",
-      "title": "Bonjour Sarah, la Terre à besoin de vous! La pollution est les guerres ont détruit ses ressources elle est au bord du gouffre! Son seul espoir réside en vous et votre précieuse cargaison, 1000 futur arbres attende d'être planter sur Mars arriverai vous à votre destination avec tout les arbres?",
+      "title": "Bonjour Sarah, la Terre à besoin de vous! La pollution est les guerres ont détruit ses ressources elle est au bord du gouffre ! Son seul espoir réside en vous et votre précieuse cargaison, 1000 futur arbres attende d'être planter sur Mars arriverai vous à votre destination avec tout les arbres ?",
+      "background": "../assets/image/intro.png",
       "actions": [
         {
           "title": "continuer",
@@ -195,7 +206,8 @@
     },
     {
       "id": 17,
-      "title": "Votre vaisseaux est trop lourd, vous risquer de ne pas rejoindre l'atmosphère comme ça! Voulez vous lâcher un panneau solaire cependant sont rôle est essentiel pour votre énergie!",
+      "title": "Votre vaisseaux est trop lourd, vous risquer de ne pas rejoindre l'atmosphère comme ça  ! Voulez vous lâcher un panneau solaire cependant sont rôle est essentiel pour votre énergie !",
+      "background": "../assets/image/solarpanel.png",
       "actions": [
         {
           "title": "Lâcher un panneau solaire",
@@ -203,13 +215,14 @@
         },
         {
           "title": "Continuer comme ça",
-          "to": "/lose"
+          "to": 34
         }
       ]
     },
     {
       "id": 18,
       "title": "Vous avez enfin quitté l'atmosphère, lâcher le panneau solaire était une bonne décision à vous maintenant d'économiser votre énergie",
+      "background": "../assets/image/lunch.png",
       "actions": [
         {
           "title": "continuer",
@@ -220,6 +233,7 @@
     {
       "id": 19,
       "title": "Un sifflement proviens de l'arrière du vaisseau mais des météorites peuvent surgir allez voir le bruit si vous laissez le pilote automatique vous perdez de l'énergie qui est précieuse",
+      "background": "../assets/image/fuitedaire.png",
       "actions": [
         {
           "title": "rester",
@@ -238,6 +252,7 @@
     {
       "id": 20,
       "title": "C'était un problème du au générateur d'énergie, mais vous n'avais pas les outils pour le réparer, vous devez déconnecter irréversiblement soit les capteurs de proximité ou bien le gps et piloter à vue pour économiser de l'énergie.",
+      "background": "../assets/image/fuitedaire.png",
       "actions": [
         {
           "title": "Capteurs de proximité",
@@ -252,6 +267,7 @@
     {
       "id": 23,
       "title": "C'était un problème du au générateur du générateur d'énergie, mais vous n'avais pas les outils pour le réparer, vous avez donc pris la bonne décision de ne pas laisser le pilote automatique pour économiser l'énergie",
+      "background": "../assets/image/fuitedaire.png",
       "actions": [
         {
           "title": "retourner au poste de pilotage",
@@ -262,6 +278,7 @@
     {
       "id": 21,
       "title": "Il vous reste encore plusieurs mois de voyage et les premières conséquences de vos choix se font ressentir, le train d'atterrissage et le stockage d'arbre à été endommagé suite à une collision avec des astéroïdes que vous n'avez pas pu anticiper sans le gps",
+      "background": "../assets/image/meteor.png",
       "actions": [
         {
           "title": "continuer",
@@ -272,6 +289,7 @@
     {
       "id": 22,
       "title": "Il vous reste encore plusieurs mois de voyage et les premières conséquences de vos choix se font ressentir, vous savez que pour atterrir sur mars le pilote automatique ne pourra pas vous assurer un bon atterrissage",
+      "background": "../assets/image/vudemars.png",
       "actions": [
         {
           "title": "continuer",
@@ -282,6 +300,7 @@
     {
       "id": 24,
       "title": "Il vous reste encore plusieurs mois de voyage et vous commencer à vous sentir très seul, l'espace devant vous est infini, vous ne savez plus quand il fait jour ou nuit, pour vous occuper vous écrivez énormément en espérant qu'on retrouve vos écris un jour",
+      "background": "../assets/image/vudemars.png",
       "actions": [
         {
           "title": "continuer",
@@ -292,6 +311,7 @@
     {
       "id": 25,
       "title": "5 mois se sont écoulés, vous observez mars depuis le cockpit. Il faut maintenant se préparer à l’atterrissage. Vous change de direction pour vous mettre en orbite autour de la planète.",
+      "background": "../assets/image/orbite.png",
       "actions": [
         {
           "title": "continuer",
@@ -302,6 +322,7 @@
     {
       "id": 26,
       "title": "5 mois se sont écoulés, vous observez mars depuis le cockpit. Il faut maintenant se préparer à l’atterrissage. Vous change de direction pour vous mettre en orbite autour de la planète. Sans connaitre les distance entre vous et Mars vous vous faite happer par la gravité de la planète et vous vous écrasez contre le sol martien",
+      "background": "../assets/image/vudemars.png",
       "actions": [
         {
           "title": "Houston à Mars23, Vous me recevez ?!!!",
@@ -312,6 +333,7 @@
     {
       "id": 27,
       "title": "5 mois se sont écoulés, vous observez mars depuis le cockpit. Il faut maintenant se préparer à l’atterrissage. Vous change de direction pour vous mettre en orbite autour de la planète. Vous signez votre premier livre -À travers les étoiles- ",
+      "background": "../assets/image/vudemars.png",
       "actions": [
         {
           "title": "continuer",
@@ -322,6 +344,7 @@
     {
       "id": 28,
       "title": "Vous lancez la phase d'atterrissage, sans train d'atterrissage, il faudra relancer les propulseurs juste avant de toucher le sol pour diminuer la vitesse du vaisseau",
+      "background": "../assets/image/orbite.png",
       "actions": [
         {
           "title": "Les relancer à 60% à 1000m",
@@ -336,6 +359,7 @@
     {
       "id": 29,
       "title": "Vous lancez la phase d'atterrissage sur Mars, pour ne pas être trop lourd vous avez le choix de lâcher la moitié de la cargaison et assurer votre atterrissage ou tenter de le faire avec tout les arbres",
+      "background": "../assets/image/orbite.png",
       "actions": [
         {
           "title": "Assurer",
@@ -350,6 +374,7 @@
     {
       "id": 30,
       "title": "Vous arrivez à vous stabiliser puis vous avez assez de distance pour diminuer petit à petit la puissance des propulseur, vous atterrissez difficilement et mais vous vous en sortez. vous commencez à installer une base provisoire",
+      "background": "../assets/image/winSarah.png",
       "actions": [
         {
           "title": "Houston à Mars23, bravo !",
@@ -360,6 +385,7 @@
     {
       "id": 31,
       "title": "Vous perdez le contrôle en activant trop fort les propulseur et vous finissez par vous écraser sur Mars",
+      "background": "../assets/image/echecSarah.png",
       "actions": [
         {
           "title": "Houston la mission est un échec",
@@ -386,6 +412,17 @@
         {
           "title": "C'est une formidable réussite",
           "to": "/win"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "title": "stabiliser l'appareil deviens de plus en plus dur, finalement y a trop de poîd votre vaisseaux s'écrase",
+      "background": "../assets/image/crashsolarpanelSarah.png",
+      "actions": [
+        {
+          "title": "Continuer",
+          "to": "/lose"
         }
       ]
     }
